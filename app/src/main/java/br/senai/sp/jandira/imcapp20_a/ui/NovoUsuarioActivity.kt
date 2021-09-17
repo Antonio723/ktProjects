@@ -1,13 +1,11 @@
 package br.senai.sp.jandira.imcapp20_a.ui
 
 import android.app.DatePickerDialog
-import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.ImageView
 import android.widget.Toast
 import br.senai.sp.jandira.imcapp20_a.R
@@ -77,7 +75,7 @@ class NovoUsuarioActivity : AppCompatActivity() {
                 0,
             et_email.text.toString(),
             et_senha.text.toString(),
-            et_nome.text.toString(),
+            et_peso.text.toString(),
             et_profissao.text.toString(),
             et_altura.text.toString().toDouble(),
             et_data_nascimento.text.toString(),
